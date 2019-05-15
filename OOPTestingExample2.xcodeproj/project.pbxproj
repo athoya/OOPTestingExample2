@@ -12,6 +12,10 @@
 		F4B7EB5A228BE81C00BE598E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B7EB58228BE81C00BE598E /* Main.storyboard */; };
 		F4B7EB5C228BE81D00BE598E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B7EB5B228BE81D00BE598E /* Assets.xcassets */; };
 		F4B7EB5F228BE81D00BE598E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B7EB5D228BE81D00BE598E /* LaunchScreen.storyboard */; };
+		F4B7EB67228BE83B00BE598E /* CoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7EB66228BE83B00BE598E /* CoffeMachine.swift */; };
+		F4B7EB69228C032800BE598E /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7EB68228C032800BE598E /* Machine.swift */; };
+		F4B7EB6B228C052C00BE598E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7EB6A228C052C00BE598E /* RoundedButton.swift */; };
+		F4B7EB6D228C070400BE598E /* AttributedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7EB6C228C070400BE598E /* AttributedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F4B7EB5B228BE81D00BE598E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B7EB5E228BE81D00BE598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B7EB60228BE81D00BE598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B7EB66228BE83B00BE598E /* CoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeMachine.swift; sourceTree = "<group>"; };
+		F4B7EB68228C032800BE598E /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		F4B7EB6A228C052C00BE598E /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F4B7EB6C228C070400BE598E /* AttributedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				F4B7EB54228BE81C00BE598E /* AppDelegate.swift */,
 				F4B7EB56228BE81C00BE598E /* ViewController.swift */,
+				F4B7EB66228BE83B00BE598E /* CoffeMachine.swift */,
+				F4B7EB6A228C052C00BE598E /* RoundedButton.swift */,
+				F4B7EB6C228C070400BE598E /* AttributedButton.swift */,
+				F4B7EB68228C032800BE598E /* Machine.swift */,
 				F4B7EB58228BE81C00BE598E /* Main.storyboard */,
 				F4B7EB5B228BE81D00BE598E /* Assets.xcassets */,
 				F4B7EB5D228BE81D00BE598E /* LaunchScreen.storyboard */,
@@ -135,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B7EB67228BE83B00BE598E /* CoffeMachine.swift in Sources */,
+				F4B7EB6D228C070400BE598E /* AttributedButton.swift in Sources */,
+				F4B7EB6B228C052C00BE598E /* RoundedButton.swift in Sources */,
+				F4B7EB69228C032800BE598E /* Machine.swift in Sources */,
 				F4B7EB57228BE81C00BE598E /* ViewController.swift in Sources */,
 				F4B7EB55228BE81C00BE598E /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84329STPY;
 				INFOPLIST_FILE = OOPTestingExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84329STPY;
 				INFOPLIST_FILE = OOPTestingExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
